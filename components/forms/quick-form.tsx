@@ -14,7 +14,7 @@ interface QuickFormProps {
 }
 
 const inputClass =
-  "w-full px-[15px] py-3.5 rounded-[11px] border border-[var(--color-line)] text-[14.5px] focus:border-[var(--color-blue)] focus:outline-none focus:ring-[3px] focus:ring-[rgba(46,123,255,0.15)]";
+  "w-full px-[15px] py-3.5 rounded-[11px] border border-[var(--color-line)] text-[14.5px] text-[var(--color-ink)] placeholder:text-[#9aa8bb] focus:border-[var(--color-blue)] focus:outline-none focus:ring-[3px] focus:ring-[rgba(46,123,255,0.15)]";
 
 export function QuickForm({ servicio, title, subtitle, messagePlaceholder, submitLabel, successTitle, successMessage }: QuickFormProps) {
   const { status, errorMessage, submit } = useWeb3Form();

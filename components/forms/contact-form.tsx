@@ -35,7 +35,7 @@ export function ContactForm() {
           placeholder="Su nombre"
           required
           autoComplete="name"
-          className="w-full px-[15px] py-3.5 rounded-[11px] border border-[var(--color-line)] text-[14.5px] focus:border-[var(--color-blue)] focus:outline-none focus:ring-[3px] focus:ring-[rgba(46,123,255,0.12)]"
+          className="w-full px-[15px] py-3.5 rounded-[11px] border border-[var(--color-line)] text-[14.5px] text-[var(--color-ink)] placeholder:text-[#9aa8bb] focus:border-[var(--color-blue)] focus:outline-none focus:ring-[3px] focus:ring-[rgba(46,123,255,0.12)]"
         />
       </div>
 
@@ -50,7 +50,7 @@ export function ContactForm() {
           placeholder="Nombre de su empresa"
           required
           autoComplete="organization"
-          className="w-full px-[15px] py-3.5 rounded-[11px] border border-[var(--color-line)] text-[14.5px] focus:border-[var(--color-blue)] focus:outline-none focus:ring-[3px] focus:ring-[rgba(46,123,255,0.12)]"
+          className="w-full px-[15px] py-3.5 rounded-[11px] border border-[var(--color-line)] text-[14.5px] text-[var(--color-ink)] placeholder:text-[#9aa8bb] focus:border-[var(--color-blue)] focus:outline-none focus:ring-[3px] focus:ring-[rgba(46,123,255,0.12)]"
         />
       </div>
 
@@ -66,7 +66,7 @@ export function ContactForm() {
             placeholder="nombre@empresa.com"
             required
             autoComplete="email"
-            className="w-full px-[15px] py-3.5 rounded-[11px] border border-[var(--color-line)] text-[14.5px] focus:border-[var(--color-blue)] focus:outline-none focus:ring-[3px] focus:ring-[rgba(46,123,255,0.12)]"
+            className="w-full px-[15px] py-3.5 rounded-[11px] border border-[var(--color-line)] text-[14.5px] text-[var(--color-ink)] placeholder:text-[#9aa8bb] focus:border-[var(--color-blue)] focus:outline-none focus:ring-[3px] focus:ring-[rgba(46,123,255,0.12)]"
           />
         </div>
         <div>
@@ -79,7 +79,7 @@ export function ContactForm() {
             name="whatsapp"
             placeholder="+51 999 999 999"
             autoComplete="tel"
-            className="w-full px-[15px] py-3.5 rounded-[11px] border border-[var(--color-line)] text-[14.5px] focus:border-[var(--color-blue)] focus:outline-none focus:ring-[3px] focus:ring-[rgba(46,123,255,0.12)]"
+            className="w-full px-[15px] py-3.5 rounded-[11px] border border-[var(--color-line)] text-[14.5px] text-[var(--color-ink)] placeholder:text-[#9aa8bb] focus:border-[var(--color-blue)] focus:outline-none focus:ring-[3px] focus:ring-[rgba(46,123,255,0.12)]"
           />
         </div>
       </div>
@@ -111,7 +111,7 @@ export function ContactForm() {
           id="mensaje"
           name="mensaje"
           placeholder="Describa su necesidad o el objetivo principal de su proyecto..."
-          className="w-full px-[15px] py-3.5 rounded-[11px] border border-[var(--color-line)] text-[14.5px] min-h-[110px] resize-y focus:border-[var(--color-blue)] focus:outline-none focus:ring-[3px] focus:ring-[rgba(46,123,255,0.12)]"
+          className="w-full px-[15px] py-3.5 rounded-[11px] border border-[var(--color-line)] text-[14.5px] text-[var(--color-ink)] placeholder:text-[#9aa8bb] min-h-[110px] resize-y focus:border-[var(--color-blue)] focus:outline-none focus:ring-[3px] focus:ring-[rgba(46,123,255,0.12)]"
         />
       </div>
 
