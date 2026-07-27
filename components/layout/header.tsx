@@ -53,7 +53,7 @@ export function Header() {
               </Link>
             );
           })}
-          <Link href="/contacto" className={buttonVariants({ variant: "primary", className: "px-[18px] py-2.5 text-sm" })}>
+          <Link href="/contacto" className={buttonVariants({ variant: "primary", className: "px-[18px] py-2.5 text-sm whitespace-nowrap shrink-0" })}>
             Solicitar diagnóstico
           </Link>
         </nav>
