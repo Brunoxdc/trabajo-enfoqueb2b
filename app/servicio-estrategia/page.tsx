@@ -12,11 +12,7 @@ export default function ServicioEstrategiaPage() {
   return (
     <ServicePage
       eyebrow="Estrategia Digital"
-      title={
-        <>
-          Un plan digital <span className="text-[var(--color-blue-bright)]">claro y accionable</span>, no un PDF que nadie lee
-        </>
-      }
+      title="Un plan digital claro y accionable, no un PDF que nadie lee"
       subtitle="Definimos tu embudo, tus mensajes y tu segmentación, y los convertimos en un plan de acción concreto para los próximos 90 días."
       checklist={[
         "Diagnóstico situacional de canales y competencia",

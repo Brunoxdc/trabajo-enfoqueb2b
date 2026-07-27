@@ -13,7 +13,7 @@ interface ThankYouLayoutProps {
 
 export function ThankYouLayout({ highlightedWord, windowTitle, headerButtonLabel, headerButtonIcon: HeaderIcon, children }: ThankYouLayoutProps) {
   return (
-    <main className="min-h-screen flex items-center justify-center relative overflow-x-hidden bg-[radial-gradient(120%_120%_at_80%_-10%,#13315a_0%,var(--color-navy)_55%)] text-white py-10">
+    <main className="min-h-screen flex items-start lg:items-center justify-center relative overflow-x-hidden bg-[radial-gradient(120%_120%_at_80%_-10%,#13315a_0%,var(--color-navy)_55%)] text-white py-10">
       <div className="w-full max-w-[1280px] mx-auto px-6 grid lg:grid-cols-[1fr_1.2fr] gap-12 items-center relative z-[2]">
         <div className="flex flex-col gap-5">
           <div className="flex items-center gap-3.5 font-[family-name:var(--font-heading)] font-extrabold text-[32px]">
@@ -23,7 +23,7 @@ export function ThankYouLayout({ highlightedWord, windowTitle, headerButtonLabel
             Enfoque <b className="text-[var(--color-blue-bright)]">B2B</b>
           </div>
 
-          <h1 className="font-[family-name:var(--font-heading)] text-[clamp(32px,4.5vw,52px)] font-extrabold leading-[1.15]">
+          <h1 className="text-white font-[family-name:var(--font-heading)] text-[clamp(32px,4.5vw,52px)] font-extrabold leading-[1.15]">
             ¡Gracias por solicitar su <span className="text-[var(--color-orange)]">{highlightedWord}</span>!
           </h1>
 

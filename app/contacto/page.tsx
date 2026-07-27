@@ -18,7 +18,7 @@ export default function ContactoPage() {
 
       <section className="bg-[radial-gradient(120%_120%_at_80%_-10%,#13315a_0%,var(--color-navy)_55%)] text-white py-16 relative overflow-hidden">
         <div
-          className="absolute pointer-events-none z-[1] w-[1000px] h-[1000px] rounded-full -right-[350px] top-1/2 -translate-y-1/2 hidden sm:block"
+          className="absolute pointer-events-none z-[1] w-[150px] h-[150px] right-[5%] lg:w-[1000px] lg:h-[1000px] lg:-right-[350px] top-1/2 -translate-y-1/2 rounded-full"
           style={{
             background:
               "radial-gradient(circle at center, #b04629 0%, #b04629 5.5%, transparent 5.5%, transparent 16%, rgba(255,255,255,0.02) 16%, rgba(255,255,255,0.02) 30%, rgba(255,255,255,0.04) 30%, rgba(255,255,255,0.04) 46%, rgba(255,255,255,0.06) 46%, rgba(255,255,255,0.06) 64%, transparent 64%)",

@@ -25,7 +25,7 @@ export default function BlogPage() {
     <main>
       <Header />
 
-      <section className="bg-[var(--color-navy)] text-white py-14">
+      <section className="bg-[radial-gradient(120%_120%_at_80%_-10%,#13315a_0%,var(--color-navy)_55%)] text-white py-14">
         <div className="container">
           <span className="eyebrow">Blog B2B</span>
           <h1 className="text-white text-[clamp(30px,4.4vw,44px)] font-extrabold mt-3">Marketing B2B y conversión</h1>

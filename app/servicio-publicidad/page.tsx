@@ -12,11 +12,7 @@ export default function ServicioPublicidadPage() {
   return (
     <ServicePage
       eyebrow="Publicidad B2B"
-      title={
-        <>
-          Publicidad enfocada en <span className="text-[var(--color-blue-bright)]">oportunidades comerciales</span>
-        </>
-      }
+      title="Publicidad enfocada en oportunidades comerciales"
       subtitle="Gestionamos campañas para atraer oportunidades mejor calificadas y alinear la pauta con sus objetivos comerciales."
       checklist={[
         "Estrategia de campañas y objetivos comerciales",

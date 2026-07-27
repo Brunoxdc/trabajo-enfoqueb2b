@@ -56,8 +56,10 @@ export function ServicePage({
             <p className="text-[17px] text-[#c3d0e2] max-w-[520px]">{subtitle}</p>
             <ul className="grid gap-3 mt-6">
               {checklist.map((item) => (
-                <li key={item} className="flex items-start gap-2.5 text-[15px] text-[#d7e1ef]">
-                  <span className="text-[var(--color-blue-bright)] font-bold">✓</span>
+                <li key={item} className="flex items-center gap-2.5 text-[15px] text-[#d7e1ef]">
+                  <span className="w-[22px] h-[22px] rounded-full bg-[var(--color-blue)] text-white text-xs grid place-items-center shrink-0 font-bold">
+                    ✓
+                  </span>
                   {item}
                 </li>
               ))}

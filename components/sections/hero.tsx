@@ -8,7 +8,7 @@ export function Hero() {
         <div>
           <span className="eyebrow text-lg">Auditoría · Estrategia · Campañas B2B</span>
           <h1 className="text-white text-[clamp(36px,5.2vw,58px)] font-extrabold mt-3.5 mb-4.5 max-w-[13ch]">
-            Agencia de Publicidad B2B que genera <span className="text-[var(--color-blue-bright)]">oportunidades reales</span>
+            Agencia de Publicidad B2B que genera oportunidades reales
           </h1>
           <p className="text-[17.5px] text-[#c3d0e2] max-w-[520px]">
             Auditoría digital, estrategia y campañas en Meta Ads y Google Ads para empresas B2B en Perú. Consigue leads calificados y deja de desperdiciar presupuesto.
