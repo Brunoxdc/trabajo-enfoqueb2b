@@ -36,7 +36,7 @@ export default function ServicioPublicidadPage() {
         { icon: Monitor, title: "Landing Pages", description: "Revisamos estructura, propuesta de valor y puntos de conversión del destino." },
         { icon: BarChart3, title: "Medición", description: "Configuramos seguimiento para entender qué campañas generan mejores resultados." },
       ]}
-      whatsappMessage="Hola, quiero generar más oportunidades comerciales con mi publicidad."
+      whatsappMessage="Hola, vengo de la página de Publicidad B2B y quiero generar más oportunidades comerciales con mi publicidad."
     />
   );
 }

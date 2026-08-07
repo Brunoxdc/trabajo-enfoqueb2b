@@ -36,7 +36,7 @@ export default function ServicioEstrategiaPage() {
         { icon: Laptop, title: "Canales", description: "Priorizamos los canales digitales según su enfoque comercial." },
         { icon: Route, title: "Plan de acción", description: "Trazamos una hoja de ruta clara para avanzar con foco." },
       ]}
-      whatsappMessage="Hola, quiero tener un plan digital claro para mi empresa."
+      whatsappMessage="Hola, vengo de la página de Estrategia Digital y quiero tener un plan digital claro para mi empresa."
     />
   );
 }
