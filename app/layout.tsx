@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Sora, Plus_Jakarta_Sans } from "next/font/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
+
+const GTM_ID = "GTM-N9Z862TD";
 
 const heading = Sora({
   subsets: ["latin"],
@@ -31,7 +34,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${heading.variable} ${body.variable}`}>{children}</body>
+      <body className={`${heading.variable} ${body.variable}`}>
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+        {children}
+      </body>
+      <GoogleTagManager gtmId={GTM_ID} />
     </html>
   );
 }
