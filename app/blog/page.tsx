@@ -99,7 +99,7 @@ export default function BlogPage() {
       </section>
 
       <Footer />
-      <WhatsappFloat message="Hola, solicito información sobre sus servicios." />
+      <WhatsappFloat message="Hola, quiero mejorar mis resultados de marketing digital B2B." />
     </main>
   );
 }

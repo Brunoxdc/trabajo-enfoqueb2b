@@ -167,7 +167,7 @@ export function ArticleLayout({
       </section>
 
       <Footer />
-      <WhatsappFloat message="Hola, tengo una consulta sobre un artículo del blog." />
+      <WhatsappFloat message="Hola, quiero mejorar mis resultados de marketing digital B2B." />
     </main>
   );
 }

@@ -36,7 +36,7 @@ export default function ServicioPublicidadPage() {
         { icon: Monitor, title: "Landing Pages", description: "Revisamos estructura, propuesta de valor y puntos de conversión del destino." },
         { icon: BarChart3, title: "Medición", description: "Configuramos seguimiento para entender qué campañas generan mejores resultados." },
       ]}
-      whatsappMessage="Hola, solicito información sobre el servicio de publicidad."
+      whatsappMessage="Hola, quiero generar más oportunidades comerciales con mi publicidad."
     />
   );
 }

@@ -36,7 +36,7 @@ export default function ServicioLandingPagesPage() {
         { icon: Monitor, title: "Diseño UX", description: "Creamos una experiencia clara, responsive y fácil de navegar." },
         { icon: BarChart3, title: "Medición", description: "Preparamos la página para medir conversiones y oportunidades." },
       ]}
-      whatsappMessage="Hola, solicito información sobre el servicio de Landing Pages."
+      whatsappMessage="Hola, quiero una landing page que convierta mejor mis visitas en clientes."
     />
   );
 }

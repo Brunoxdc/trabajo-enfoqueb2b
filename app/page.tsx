@@ -80,7 +80,7 @@ export default function Home() {
       <ProcessSteps />
       <BlogPreview />
       <Footer />
-      <WhatsappFloat message="Hola, solicito información sobre un diagnóstico publicitario." />
+      <WhatsappFloat message="Hola, quiero mejorar la captación de clientes de mi empresa." />
     </main>
   );
 }

@@ -36,7 +36,7 @@ export default function ServicioAuditoriaPage() {
         { icon: BarChart3, title: "Medición", description: "Auditamos sus datos, eventos, dashboards y atribución para decisiones basadas en evidencia." },
         { icon: Users, title: "Proceso comercial", description: "Analizamos el seguimiento de leads, handoff a ventas y oportunidades de mejora." },
       ]}
-      whatsappMessage="Hola, solicito información sobre la auditoría digital."
+      whatsappMessage="Hola, quiero saber qué está frenando los resultados de mi publicidad."
     />
   );
 }
