@@ -85,7 +85,7 @@ export default function ContactoPage() {
       </section>
 
       <Footer />
-      <WhatsappFloat />
+      <WhatsappFloat message="Hola, vengo de la página de Contacto y quiero mejorar la captación de clientes de mi empresa." />
     </main>
   );
 }
