@@ -25,7 +25,7 @@ export default function ServicioAuditoriaPage() {
       formTitle="Solicite su auditoría"
       formSubtitle="Cuéntanos brevemente su caso y revisaremos con usted el siguiente paso recomendado."
       formMessagePlaceholder="¿Qué desea revisar?"
-      formSubmitLabel="Solicitar auditoría estratégica"
+      formSubmitLabel="Solicitar diagnóstico"
       graciasHref="/gracias-auditoria"
       areasTitle="Revisamos las áreas clave de su marketing y proceso comercial"
       areas={[

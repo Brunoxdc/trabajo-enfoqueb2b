@@ -25,7 +25,7 @@ export default function ServicioEstrategiaPage() {
       formTitle="Solicite su estrategia"
       formSubtitle="Cuéntanos brevemente su caso y revisaremos con usted el siguiente paso recomendado."
       formMessagePlaceholder="Cuéntanos qué objetivos comerciales buscas lograr"
-      formSubmitLabel="Solicitar evaluación estratégica"
+      formSubmitLabel="Solicitar diagnóstico"
       graciasHref="/gracias-estrategia"
       areasTitle="Definimos las bases de su estrategia digital"
       areas={[

@@ -25,7 +25,7 @@ export default function ServicioLandingPagesPage() {
       formTitle="Solicite su evaluación"
       formSubtitle="Cuéntanos brevemente su caso y revisaremos con usted el siguiente paso recomendado."
       formMessagePlaceholder="Cuéntanos qué necesita potenciar"
-      formSubmitLabel="Solicitar evaluación estratégica"
+      formSubmitLabel="Solicitar diagnóstico"
       graciasHref="/gracias-landing"
       areasTitle="Diseñamos las áreas clave de una landing page B2B"
       areas={[
