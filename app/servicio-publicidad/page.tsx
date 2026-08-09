@@ -26,8 +26,7 @@ export default function ServicioPublicidadPage() {
       formSubtitle="Cuéntanos brevemente su caso y revisaremos con usted el siguiente paso recomendado."
       formMessagePlaceholder="Cuéntanos qué necesita potenciar"
       formSubmitLabel="Solicitar evaluación estratégica"
-      successTitle="¡Evaluación Solicitada!"
-      successMessage="Hemos recibido tus datos correctamente. Revisaremos tu caso para presentarte la propuesta comercial en menos de 24 horas hábiles."
+      graciasHref="/gracias-publicidad"
       areasTitle="Revisamos las áreas clave de su publicidad y conversión"
       areas={[
         { icon: Crosshair, title: "Estrategia", description: "Definimos objetivos, oferta y estructura de campaña según su proceso comercial." },

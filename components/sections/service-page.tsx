@@ -21,8 +21,7 @@ interface ServicePageProps {
   formSubtitle: string;
   formMessagePlaceholder: string;
   formSubmitLabel: string;
-  successTitle: string;
-  successMessage: string;
+  graciasHref: string;
   areasTitle: string;
   areas: Area[];
   whatsappMessage: string;
@@ -38,8 +37,7 @@ export function ServicePage({
   formSubtitle,
   formMessagePlaceholder,
   formSubmitLabel,
-  successTitle,
-  successMessage,
+  graciasHref,
   areasTitle,
   areas,
   whatsappMessage,
@@ -73,8 +71,7 @@ export function ServicePage({
               subtitle={formSubtitle}
               messagePlaceholder={formMessagePlaceholder}
               submitLabel={formSubmitLabel}
-              successTitle={successTitle}
-              successMessage={successMessage}
+              graciasHref={graciasHref}
             />
           </div>
         </div>

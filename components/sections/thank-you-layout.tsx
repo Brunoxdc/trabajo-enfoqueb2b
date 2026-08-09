@@ -1,17 +1,14 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
-import type { LucideIcon } from "lucide-react";
 import { TrendingUp } from "lucide-react";
 
 interface ThankYouLayoutProps {
   highlightedWord: string;
   windowTitle: string;
-  headerButtonLabel: string;
-  headerButtonIcon: LucideIcon;
   children: ReactNode;
 }
 
-export function ThankYouLayout({ highlightedWord, windowTitle, headerButtonLabel, headerButtonIcon: HeaderIcon, children }: ThankYouLayoutProps) {
+export function ThankYouLayout({ highlightedWord, windowTitle, children }: ThankYouLayoutProps) {
   return (
     <main className="min-h-screen flex items-start lg:items-center justify-center relative overflow-x-hidden bg-[radial-gradient(120%_120%_at_80%_-10%,#13315a_0%,var(--color-navy)_55%)] text-white py-10">
       <div className="w-full max-w-[1280px] mx-auto px-6 grid lg:grid-cols-[1fr_1.2fr] gap-12 items-center relative z-[2]">
@@ -61,11 +58,8 @@ export function ThankYouLayout({ highlightedWord, windowTitle, headerButtonLabel
             </div>
           </div>
 
-          <div className="flex justify-between items-center border-b border-[var(--color-line)] pb-4 mb-4">
+          <div className="border-b border-[var(--color-line)] pb-4 mb-4">
             <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">{windowTitle}</h2>
-            <span className="inline-flex items-center gap-2 bg-[var(--color-orange)] text-white px-4.5 py-2.5 rounded-[10px] font-semibold font-[family-name:var(--font-heading)] text-[13px] shadow-[0_6px_16px_-6px_var(--color-orange)]">
-              <HeaderIcon size={14} /> {headerButtonLabel}
-            </span>
           </div>
 
           {children}

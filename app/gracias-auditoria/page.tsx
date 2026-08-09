@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Download, CircleCheck } from "lucide-react";
+import { CircleCheck } from "lucide-react";
 import { ThankYouLayout, TrendChart } from "@/components/sections/thank-you-layout";
 
 export const metadata: Metadata = {
@@ -18,8 +18,6 @@ export default function GraciasAuditoriaPage() {
     <ThankYouLayout
       highlightedWord="auditoría digital"
       windowTitle="Auditoría Digital"
-      headerButtonLabel="Descargar resumen"
-      headerButtonIcon={Download}
     >
       <div className="grid sm:grid-cols-[0.8fr_1.2fr] gap-4 mb-4">
         <div className="bg-white border border-[var(--color-line)] rounded-[14px] p-4 flex flex-col items-center justify-center gap-2 text-center">

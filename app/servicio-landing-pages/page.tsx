@@ -26,8 +26,7 @@ export default function ServicioLandingPagesPage() {
       formSubtitle="Cuéntanos brevemente su caso y revisaremos con usted el siguiente paso recomendado."
       formMessagePlaceholder="Cuéntanos qué necesita potenciar"
       formSubmitLabel="Solicitar evaluación estratégica"
-      successTitle="¡Solicitud recibida!"
-      successMessage="Hemos recibido tus datos correctamente. Revisaremos tu caso estratégico a fondo en menos de 24 horas hábiles."
+      graciasHref="/gracias-landing"
       areasTitle="Diseñamos las áreas clave de una landing page B2B"
       areas={[
         { icon: Newspaper, title: "Estructura", description: "Ordenamos la información para guiar al usuario hacia la conversión." },

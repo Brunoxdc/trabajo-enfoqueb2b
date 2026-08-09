@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { BarChart3, Eye, MousePointer2, ChartBar, UserRound } from "lucide-react";
+import { Eye, MousePointer2, ChartBar, UserRound } from "lucide-react";
 import { ThankYouLayout, TrendChart } from "@/components/sections/thank-you-layout";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ const channels = [
 
 export default function GraciasPublicidadPage() {
   return (
-    <ThankYouLayout highlightedWord="publicidad B2B" windowTitle="Publicidad B2B" headerButtonLabel="Ver campaña" headerButtonIcon={BarChart3}>
+    <ThankYouLayout highlightedWord="publicidad B2B" windowTitle="Publicidad B2B">
       <div className="grid sm:grid-cols-[1fr_1.2fr] gap-4 mb-4">
         <div className="bg-white border border-[var(--color-line)] rounded-[14px] p-4 flex flex-col gap-3">
           <h4 className="font-[family-name:var(--font-heading)] text-[13px] text-[var(--color-muted)]">Rendimiento de la campaña</h4>

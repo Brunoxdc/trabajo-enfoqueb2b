@@ -26,8 +26,7 @@ export default function ServicioEstrategiaPage() {
       formSubtitle="Cuéntanos brevemente su caso y revisaremos con usted el siguiente paso recomendado."
       formMessagePlaceholder="Cuéntanos qué objetivos comerciales buscas lograr"
       formSubmitLabel="Solicitar evaluación estratégica"
-      successTitle="¡Estrategia Solicitada!"
-      successMessage="Hemos recibido tus datos correctamente. Revisaremos tu caso estratégico a fondo en menos de 24 horas hábiles."
+      graciasHref="/gracias-estrategia"
       areasTitle="Definimos las bases de su estrategia digital"
       areas={[
         { icon: Search, title: "Diagnóstico", description: "Analizamos su presencia digital, mensajes y oportunidades de mejora." },

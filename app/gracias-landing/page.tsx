@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Eye, Zap } from "lucide-react";
+import { Zap } from "lucide-react";
 import { ThankYouLayout, TrendChart } from "@/components/sections/thank-you-layout";
 
 export const metadata: Metadata = {
@@ -12,8 +12,6 @@ export default function GraciasLandingPage() {
     <ThankYouLayout
       highlightedWord="landing page B2B"
       windowTitle="Landing Pages B2B"
-      headerButtonLabel="Solicitar demo"
-      headerButtonIcon={Eye}
     >
       <div className="bg-white border border-[var(--color-line)] rounded-[14px] p-4 mb-4 flex items-center gap-3">
         <div className="w-10 h-10 rounded-lg bg-[#eaf2ff] text-[var(--color-blue)] grid place-items-center shrink-0">

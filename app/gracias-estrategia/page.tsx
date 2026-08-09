@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Download, Target, TrendingUp } from "lucide-react";
+import { Target, TrendingUp } from "lucide-react";
 import { ThankYouLayout } from "@/components/sections/thank-you-layout";
 
 export const metadata: Metadata = {
@@ -25,8 +25,6 @@ export default function GraciasEstrategiaPage() {
     <ThankYouLayout
       highlightedWord="estrategia digital"
       windowTitle="Estrategia Digital"
-      headerButtonLabel="Descargar plan"
-      headerButtonIcon={Download}
     >
       <div className="bg-white border border-[var(--color-line)] rounded-[14px] p-4 mb-4">
         <h4 className="font-[family-name:var(--font-heading)] text-[13px] text-[var(--color-muted)] mb-3">Hoja de ruta estratégica</h4>
