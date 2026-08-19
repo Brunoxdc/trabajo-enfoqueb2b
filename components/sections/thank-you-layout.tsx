@@ -1,10 +1,11 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 
 interface ThankYouLayoutProps {
-  highlightedWord: string;
+  heading: ReactNode;
 }
 
-export function ThankYouLayout({ highlightedWord }: ThankYouLayoutProps) {
+export function ThankYouLayout({ heading }: ThankYouLayoutProps) {
   return (
     <main className="min-h-screen flex items-center justify-center relative overflow-x-hidden bg-[radial-gradient(120%_120%_at_80%_-10%,#13315a_0%,var(--color-navy)_55%)] text-white py-10 px-6">
       <div className="w-full max-w-[600px] mx-auto flex flex-col items-center text-center gap-5 relative z-[2]">
@@ -16,7 +17,7 @@ export function ThankYouLayout({ highlightedWord }: ThankYouLayoutProps) {
         </div>
 
         <h1 className="text-white font-[family-name:var(--font-heading)] text-[clamp(32px,4.5vw,52px)] font-extrabold leading-[1.15]">
-          ¡Gracias por solicitar su <span className="text-[var(--color-orange)]">{highlightedWord}</span>!
+          {heading}
         </h1>
 
         <div className="w-16 h-1 bg-[var(--color-orange)] rounded-full" />

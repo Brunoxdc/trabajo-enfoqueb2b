@@ -7,5 +7,13 @@ export const metadata: Metadata = {
 };
 
 export default function GraciasAuditoriaPage() {
-  return <ThankYouLayout highlightedWord="auditoría digital" />;
+  return (
+    <ThankYouLayout
+      heading={
+        <>
+          ¡Gracias por solicitar su <span className="text-[var(--color-orange)]">auditoría digital</span>!
+        </>
+      }
+    />
+  );
 }

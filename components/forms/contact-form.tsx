@@ -7,17 +7,7 @@ import { useWeb3Form } from "./use-web3-form";
 const services = ["Auditoría Digital", "Publicidad B2B", "Estrategia Digital", "Landing Pages B2B"];
 
 export function ContactForm() {
-  const { status, errorMessage, submit } = useWeb3Form();
-
-  if (status === "success") {
-    return (
-      <div className="text-center py-10 px-5 text-[var(--color-navy)]">
-        <span className="text-5xl">🎉</span>
-        <h3 className="font-[family-name:var(--font-heading)] text-xl mt-4 mb-2">¡Solicitud enviada!</h3>
-        <p className="text-[var(--color-muted)]">Nos pondremos en contacto en menos de 24 horas hábiles.</p>
-      </div>
-    );
-  }
+  const { status, errorMessage, submit } = useWeb3Form({ redirectTo: "/gracias" });
 
   return (
     <form onSubmit={submit} className="grid gap-4">

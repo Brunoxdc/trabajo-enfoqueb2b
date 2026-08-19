@@ -7,5 +7,13 @@ export const metadata: Metadata = {
 };
 
 export default function GraciasLandingPage() {
-  return <ThankYouLayout highlightedWord="landing page B2B" />;
+  return (
+    <ThankYouLayout
+      heading={
+        <>
+          ¡Gracias por solicitar su <span className="text-[var(--color-orange)]">landing page B2B</span>!
+        </>
+      }
+    />
+  );
 }

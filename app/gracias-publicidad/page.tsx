@@ -7,5 +7,13 @@ export const metadata: Metadata = {
 };
 
 export default function GraciasPublicidadPage() {
-  return <ThankYouLayout highlightedWord="publicidad B2B" />;
+  return (
+    <ThankYouLayout
+      heading={
+        <>
+          ¡Gracias por solicitar su <span className="text-[var(--color-orange)]">publicidad B2B</span>!
+        </>
+      }
+    />
+  );
 }
